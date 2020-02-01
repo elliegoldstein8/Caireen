@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Caireen</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="tab_text_1">Features</string>
+    <string name="tab_text_2">Home</string>
+    <string name="tab_text_3">Profile</string>
+    <string name="tab_text_4">Weight</string>
+    <string name="tab_text_5">Height</string>
+    <string name="tab_text_6">Head Size</string>
+    <string name="tab_text_7">BMI</string>
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_home_pageu">HomePage</string>
+    <string name="title_activity_feature__article">Feature_Article</string>
+    <string name="large_text">
+        "Gelichabbi is an independent student group for Capstone. It consists of the 4 greatest "
+        "individuals of the Information Technology Department from Mindanao State University -  "
+        "Gensan, Philippines.\n"
+        "If you have any concerns, feedbacks, requests, complaints, suggestions, please visit our"
+        "facebook page. Thank you for using Caireen as your trusted baby application.\n\n"
+
+        "Ipasa nyo kami sa Capstone please huhuhu \n\n"
+        "All rights reserved 2019 \n\n"
+    </string>
+    <string name="title_activity_articles">Articles</string>
+    <string name="title_activity_bmi">BMI</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="common_illness_analysis">Growth Charts</string>
+    <string name="bmi_calculator">Baby Diary</string>
+    <string name="articles">Articles</string>
+    <string name="pediatric_clinic_locator">Poop Recorder</string>
+    <string name="forum">Body Temperature\nRecorder</string>
+    <string name="about_us">Vitamin/Medicine\nReminder</string>
+    <string name="by_clicking_sign_in_you_agree_to_our_terms_and_conditions">By clicking Sign In, you agree to our terms and conditions.</string>
+    <string name="babynamestring" />
+    <string name="title_activity_userlogout">Userlogout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_navigationdrawer">Navigationdrawer</string>
+    <string name="title_activity_pediatric">Map</string>
+    <string name="not_yet_available">Not yet available</string>
+    <string name="profile_page">Profile page</string>
+    <string name="baby_s_name">Baby\'s Name:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="height">Height:</string>
+    <string name="weight">Weight:</string>
+    <string name="title_activity_growth_charts">GrowthCharts</string>
+    <string name="title_activity_article_fin">ArticleFin</string>
+    <string name="title_activity_poop">Poop</string>
+    <string name="title_activity_body_temp">BodyTemp</string>
+    <string name="title_activity_growth_diary">GrowthDiary</string>
+    <string name="title_activity_vitamin">Vitamin</string>
+    <string name="about_us1">About Us</string>
+    <string name="immunization_recorder">Immunization\nRecorder</string>
+    <string name="title_activity_immunization">Immunization</string>
+    <string name="select_vaccine">Select Vaccine</string>
+    <string-array name="vaccine_names">
+        <item>Select Vaccine</item>>
+        <item>BCG</item>
+        <item>Hepatitis B</item>
+        <item>DTwP/DTaP</item>
+        <item>OPV/IPV</item>
+        <item>HiB</item>
+        <item>RV</item>
+        <item>PnCV</item>
+        <item>Measles</item>
+        <item>Influenza</item>
+        <item>Japanese Encephalitis</item>
+        <item>Varicella</item>
+        <item>MMR</item>
+        <item>Hepatitis A</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="poop_consistencies">
+        <item>Select Poop Consistency</item>
+        <item>Liquid</item>
+        <item>Mushy</item>
+        <item>Soft blob w/ clear cut edges</item>
+        <item>Sausage-shaped</item>
+        <item>Sausage-shaped with cracks</item>
+        <item>Sausage-shaped but lumpy</item>
+        <item>Separate hard lumps</item>
+    </string-array>
+    <string-array name="poop_colors">
+        <item>Select Poop Color</item>>
+        <item>Yellow</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Greenish-black</item>
+        <item>Black blood</item>
+        <item>Red blood</item>
+        <item>White/Gray</item>
+    </string-array>
+    <string name="title_activity_article_final">ArticleFinal</string>
+    <string name="title_activity_articless">Articless</string>
+    <string name="time">Time</string>
+    <string name="set_time">Set Time</string>
+    <string name="ok">OK</string>
+
+    //setting ni
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="default_gallery_storage">Internal Storage</string>
+    <string name="title_auto_upload">Data and Sync</string>
+    <string name="summary_upload_over_wifi">Auto sync if connection is available</string>
+    <string name="title_upload_quality">Upload Quality</string>
+    <string name="summary_upload_video_quality">Specify video quality for uploads</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+    <string name="pref_header_about">About Caireen</string>
+    <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+    <string name="app_version">1.0</string>
+    <string name="summary_support">Got any queries? We are happy to help you!</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">View frequently asked questions</string>
+    <string name="url_faq">https://www.androidhive.info/privacy-policy/</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="url_privacy">https://www.androidhive.info/privacy-policy/</string>
+    <string name="title_terms">Terms &amp; Conditions</string>
+    <string name="url_terms">https://www.androidhive.info/terms-of-service/</string>
+    <string name="title_version">Version</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="title_gallery_storage">Default Storage</string>
+    <string name="title_new_notification_sound">New message notification</string>
+    <string name="title_vibrate">Vibrate</string>
+    <string name="summary_vibrate">Vibrate on new notification</string>
+    <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+    <string name="key_gallery_name">key_gallery_name</string>
+    <string name="key_upload_quality">key_upload_quality</string>
+    <string name="notifications_new_message">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+
+    <string name="vitamin_reminder_notification_title_template">Vitamin reminder: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="vitamin_reminder_notification_placeholder_text_template">You said %1$s and lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit
+        vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="title_account_settings">Edit User Profile</string>
+    <string name="summary_account_details">Full Name, Email Address, Phone Number etc.</string>
+    <string name="switchbaby">Baby Profiles</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="title_activity_switch_baby">SwitchBaby</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="next"><![CDATA[>]]></string>
+    <string name="title_activity_add_vit_reminder">AddVitReminder</string>
+
+
+</resources>

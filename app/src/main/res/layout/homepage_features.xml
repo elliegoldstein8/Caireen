@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="25dp">
+
+
+            <ImageButton
+                android:id="@+id/bmiicon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/articleicon"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/circle"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/diary2"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <ImageButton
+                android:id="@+id/ciaicon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignStart="@+id/locatoricon"
+                android:layout_alignTop="@+id/bmiicon"
+                android:background="@drawable/circle2"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/chart2"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <ImageButton
+                android:id="@+id/articleicon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/forumicon"
+                android:layout_marginTop="155dp"
+                android:background="@drawable/circle3"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/articles2"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="206dp" />
+
+            <ImageButton
+                android:id="@+id/forumicon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignStart="@+id/textbmi"
+                android:layout_alignTop="@+id/aboutusicon"
+                android:background="@drawable/circle5"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/bodytemp2"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="346dp" />
+
+            <ImageButton
+                android:id="@+id/locatoricon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/articleicon"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/circle4"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/poop2"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="206dp" />
+
+            <ImageButton
+                android:id="@+id/aboutusicon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignLeft="@+id/locatoricon"
+                android:layout_alignStart="@+id/locatoricon"
+                android:layout_below="@+id/locatoricon"
+                android:layout_marginTop="38dp"
+                android:background="@drawable/circle6"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/vita"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="346dp" />
+
+            <ImageButton
+                android:id="@+id/immunizationicon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignStart="@+id/bmiicon"
+                android:layout_alignTop="@+id/aboutus2icon"
+                android:background="@drawable/circle7"
+                app:srcCompat="@drawable/immunization"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="206dp" />
+
+            <ImageButton
+                android:id="@+id/aboutus2icon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/ciaicon"
+                android:layout_marginTop="429dp"
+                android:background="@drawable/circle8"
+                app:srcCompat="@drawable/aboutus"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="346dp" />
+
+
+            <TextView
+                android:id="@+id/textbmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bmiicon"
+                android:layout_marginStart="61dp"
+                android:background="#ffff"
+                android:text="@string/bmi_calculator" />
+
+            <TextView
+                android:id="@+id/textcia"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/ciaicon"
+                android:layout_below="@+id/bmiicon"
+                android:background="#ffff"
+                android:text="@string/common_illness_analysis" />
+
+            <TextView
+                android:id="@+id/textarticles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textbmi"
+                android:layout_below="@+id/articleicon"
+                android:background="#ffff"
+                android:text="@string/articles" />
+
+            <TextView
+                android:id="@+id/textlocator"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textcia"
+                android:layout_below="@+id/locatoricon"
+                android:background="#ffff"
+                android:text="@string/pediatric_clinic_locator" />
+
+            <TextView
+                android:id="@+id/textforum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/bmiicon"
+                android:layout_below="@+id/forumicon"
+                android:background="#ffff"
+                android:text="@string/forum" />
+
+            <TextView
+                android:id="@+id/textaboutus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/ciaicon"
+                android:layout_below="@+id/forumicon"
+                android:background="#ffff"
+                android:text="@string/about_us" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/ciaicon"
+                android:layout_below="@+id/aboutus2icon"
+                android:background="#ffff"
+                android:text="@string/about_us1" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/bmiicon"
+                android:layout_below="@+id/immunizationicon"
+                android:layout_marginBottom="78dp"
+                android:background="#ffff"
+                android:text="@string/immunization_recorder" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

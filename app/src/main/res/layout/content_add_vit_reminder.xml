@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddVitReminder"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_add_vit_reminder">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="150dp"
+            android:layout_height="194dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            app:srcCompat="@drawable/ic_access_alarm_black_24dp"
+            tools:layout_editor_absoluteX="131dp" />
+
+        <TextView
+            android:id="@+id/timedisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:text="00:00 MN"
+            android:textSize="40sp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="203dp" />
+
+        <TextView
+            android:id="@+id/medicinedisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="208dp"
+            android:text="Medicine:XXXX"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="270dp" />
+
+        <TextView
+            android:id="@+id/dosagedisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="173dp"
+            android:text="Dosage: X a day "
+            android:textSize="18sp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="308dp" />
+
+        <TextView
+            android:id="@+id/usagedisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="136dp"
+            android:text="Usage: XXXX"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="342dp" />
+
+        <TextView
+            android:id="@+id/repeatdaily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="100dp"
+            android:text="Repeat Daily"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="378dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

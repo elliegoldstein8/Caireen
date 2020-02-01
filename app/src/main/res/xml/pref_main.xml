@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Edit User Account">
+
+        <Preference
+            android:key = "emailsettings"
+            android:clickable="true"
+            android:title="Change Email">
+            <intent android:targetPackage ="com.example.queenelizabethviii.caireen2"
+                android:targetClass="com.example.queenelizabethviii.caireen2.ChangeEmail"/>
+        </Preference>
+
+        <Preference
+            android:key="passwordsettings"
+            android:clickable="true"
+            android:title="Change Password">
+        <intent android:targetPackage ="com.example.queenelizabethviii.caireen2"
+            android:targetClass="com.example.queenelizabethviii.caireen2.ChangePassword"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:summary="@string/app_version"
+            android:title="@string/title_version" />
+
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

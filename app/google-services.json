@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "511184399704",
+    "firebase_url": "https://caireen-d548e.firebaseio.com",
+    "project_id": "caireen-d548e",
+    "storage_bucket": "caireen-d548e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511184399704:android:74a7883b4c58bec7",
+        "android_client_info": {
+          "package_name": "com.example.queenelizabethviii.caireen2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511184399704-mc1ckr7d8om2cpjrjmpagv56767nknlg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.queenelizabethviii.caireen2",
+            "certificate_hash": "b062f62fc403141e316638601a25e5e59d489229"
+          }
+        },
+        {
+          "client_id": "511184399704-e6st3mbrd4hnsn83aeh2l1toadkcc94o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCscIiJhYsuZgPFRrjFFUKxkBlm736u0WI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511184399704-e6st3mbrd4hnsn83aeh2l1toadkcc94o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

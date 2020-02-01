@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relativeLayout7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context="com.example.queenelizabethviii.caireen2.MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:contentDescription="TODO"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/caireen" />
+
+        <EditText
+            android:id="@+id/Email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3"
+            android:layout_below="@+id/imageView3"
+            android:layout_marginTop="11dp"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:drawableStart="@drawable/ic_action_email"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/Password2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Email1"
+            android:layout_alignStart="@+id/Email1"
+            android:layout_below="@+id/Email1"
+            android:layout_marginTop="11dp"
+            android:drawableLeft="@drawable/ic_action_password"
+            android:drawableStart="@drawable/ic_action_password"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/Password2"
+            android:layout_alignLeft="@+id/Password2"
+            android:layout_alignRight="@+id/Password2"
+            android:layout_alignStart="@+id/Password2"
+            android:layout_below="@+id/Password2"
+            android:layout_marginTop="12dp"
+            android:background="#12afdc"
+            android:text="LogIn" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignRight="@+id/button"
+            android:layout_alignStart="@+id/button"
+            android:layout_below="@+id/button"
+            android:layout_marginTop="12dp"
+            android:text="Sign Up" />
+
+        <TextView
+            android:id="@+id/forgot_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:onClick="forgotPassword"
+            android:text="Forgot Password?"
+            android:textColor="#483d8b" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
+
